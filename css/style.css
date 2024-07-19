@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    height: 100%;
+    width: 100%;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+}
+
+.menu{
+    margin: 0px;
+    padding: 10px;
+    border:2px solid gray;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+
+}
+.menu .nav{
+    margin: 0px;
+    padding: 10px;
+    /* border: 2px solid white; */
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 100px;
+}
+.nav li{
+    list-style-type: none;
+    /* background-color: white; */
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 150px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    /* color:whitesmoke; */
+    padding-left: 10px;
+    padding-bottom: -20px;
+    color: white;
+  
+    
+    
+    
+}
+.nav a:hover{
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px red;
+}
+
+.nav .imgs{
+    height: 50px;
+    width: 50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
+/*   my profile logo  */
+.nav .profileimgs{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+} 
+
+.nav h4{
+    position:relative;
+    left: 70px;
+    bottom: 30px;
+    padding-left: 10px;
+}
+
+/* menus complete */
+
+
+/*      chats   */
+
+.chat {
+    padding-left: 150px;
+}
+.chat .accounts_logo{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    justify-content: space-around;
+    color:whitesmoke;
+    /* border: 2px solid white; */
+}
+
+.chat .accimg1{
+    background: url(../images/cristiano.jpg);
+    height: 80px;
+    width: 80px;
+    background-position:center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color:gray;
+}
+.chat .accimg2{
+    background: url(../images/rossi.jpg);
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    background-position:center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color:gray;
+}
+.chat .accimg3{
+    background: url(../images/neymar.jpg);
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    background-position:center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color:gray;
+}
+.chat .accimg4{
+    background: url(../images/paulwalker1.jpg);
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    background-position:left;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color:gray;
+}
+.chat .accimg5{
+    background: url(../images/bruceelee.jpg);
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    background-position:top;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color:gray;
+}
+.chat .accimg6{
+    background: url(../images/rock.webp);
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    background-position:top;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color:gray;
+}
+.accounts_logo p{
+    position: relative;
+    top: 100px;
+    margin-left: 15px;
+
+
+}
+
+/*  update msg */
+
+.updatemsg{
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 50px 50px 0px 0px;
+}
+.updatemsg .about{
+    border: 2px solid gray;
+    display:flex;
+   
+}
+.aboutinfo{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: left 10px;
+}
+.aboutinfo span{
+    margin-left: 20px;
+}
+.aboutinfo p{
+    color: red;
+    flex-direction: column;
+
+}
+.aboutinfo .alliswell{
+    position: relative;
+    top: 30px;
+    right: 120px;
+}
+
+.about li{
+    margin-left: 20px;
+}
+.updatemsg .aboutlogo{
+    background: url(../images/bilgates.jpeg);
+    height: 80px;
+    width: 80px;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin:10px 0px 10px 10px;
+}
+.updateimg{
+   
+    background: url(../images/bilgatesquate.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+
+}
+
+.cmnt{
+    display: flex;
+   
+}
+.cmnt li{
+    list-style-type: none;
+    margin-left: 20px;
+    
+}
+.cmnt img{
+    height: 50px;
+    width: 50px;
+    background-color: whitesmoke;
+}
+.savelogo{
+    margin-left: 840px;
+}
+
+
+.describtion{
+    color:whitesmoke;
+    margin-top: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+}
